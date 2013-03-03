@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         
-        <title></title>
+        <title>Project 3 - Alan Hancock</title>
         
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
@@ -16,7 +16,7 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="assets/css/themes/vanilla.css">
+        <link rel="stylesheet" href="assets/css/themes/jqtouch.css">
         <link rel="stylesheet" href="assets/css/app.css">
        
         <script src="assets/js/libs/modernizr.js"></script>
@@ -24,6 +24,65 @@
 
 	<body>
 
+		<div id="jqt" class="supports3d portrait" style="min-height: 643px;">
+		
+			<div id="home" class="current">
+				<header class="toolbar">
+					<h1>P3 - Alan H</h1>
+					<a class="button slideup" id="aboutButton" href="#about">About</a>
+				</header>
+				<div class="scroll">
+					<ul class="rounded">
+						<li class="arrow">
+							<a href="#blog">
+								Blog
+								<small class="counter">3</small>
+							</a>
+						</li>
+						<li class="arrow">
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="about">
+				<header class="toolbar">
+					<h1>About Alan</h1>
+					<a class="back" href="#home">Home</a>
+				</header>
+			</div>
+			
+			<div id="blog">
+				<header class="toolbar">
+					<h1>Blog</h1>
+					<a class="back" href="#home">Home</a>
+				</header>			
+			</div>
+			
+			<div id="article-1">
+				<header class="toolbar">
+					<h1>Article 1</h1>
+					<a class="back" href="#blog">Blog</a>
+				</header>			
+			</div>
+			
+			<div id="article-2">
+				<header class="toolbar">
+					<h1>Article 2</h1>
+					<a class="back" href="#blog">Blog</a>
+				</header>
+			</div>
+			
+			<div id="article-3">
+				<header class="toolbar">
+					<h1>Article 3</h1>
+					<a class="back" href="#blog">Blog</a>
+				</header>
+			</div>
+		
+		</div>
+		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="assets/js/libs/jquery.js"><\/script>')</script>
 		<script src="assets/js/libs/jqtouch.js" type="text/javascript"></script>
