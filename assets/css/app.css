@@ -1,9 +1,5 @@
 @import url('font-awesome.css');
 
-/* -----------------------------------------
-   Page Styles
------------------------------------------ */
-
 .page {
 	border: 1px solid green;
 	background: darkgrey;
@@ -21,7 +17,11 @@
 	font-style: italic;
 }
 
-.copyright {
-	text-align: center;
-	padding: 10px 0 10px 0;
+.page form input,
+.page form textarea {
+	display: block;
+	padding: 10px 10px;
+	margin-bottom: 15px;
+	width: 95%;
 }
+
